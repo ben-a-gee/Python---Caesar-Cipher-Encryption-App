@@ -16,9 +16,10 @@ for char in message:
         # convert the new charactor code to a new charactor
         new_char = chr(new_char_code)
         
-        result = result + new_char
+        # add the new_char to the end of the result string variable
+        result += new_char
     else:
         # otherwise, if the char is not in the alphabet, 
-        result = result + char
+        result += char
 
 print(result)
